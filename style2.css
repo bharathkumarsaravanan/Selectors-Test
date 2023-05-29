@@ -1,0 +1,51 @@
+body {
+    background-color: antiquewhite;
+}
+    /* ques 1  */
+.container > div > div:nth-child(2) > span {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 5px;
+    color: white;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+    /* ques 2 */
+.container > div:first-child > div:nth-child(2) > span:nth-child(odd):not(:nth-child(-n+20)){
+    background-color: blue;
+}
+    /* ques 3  */
+.container > div:nth-child(2) > div:nth-child(2) > span:nth-child(7n):not(:nth-child(-n+20)):not(:nth-child(2n)){
+    background-color: orange;
+}
+    /* ques 5  */
+.container > div:nth-child(3) > div:nth-child(2) > span:nth-child(5n):not(:nth-child(-n+20)):not(:nth-child(even)){
+    background-color: burlywood;
+}
+    /* ques 6  */
+nav > ul:last-child a[href*= "customerlabs"]{
+    background-color: orange;
+}
+    /* ques 7  */
+nav > ul:first-child li:not([id]){
+    background-color: yellow;
+}
+    /* ques 8  */
+nav > ul:nth-child(2) a[href$="3"] {
+    background-color: yellow;
+}
+    /* ques 9  */
+.container > div > div:first-child{
+    display: flex;
+}
+    /* ques 10 */
+.rte ~ span:nth-of-type(2){
+    background-color: yellow;
+}
+
+
+
+

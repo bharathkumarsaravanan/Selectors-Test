@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+}
+    /* ques 1  */
+div:first-child > ul > ul > li:last-child {
+    background-color: aqua;
+}
+    /* ques 2  */
+#qstn2 > ul > li:nth-child(3n):not(:nth-child(6)){
+    background-color: aqua;
+}
+    /* ques 3  */
+#qstn3 > fieldset > div > button {
+    background-color: aqua;
+}
+    /* ques 4  */
+#qstn4 > ul > ul:nth-last-child(2) > i:nth-child(2) {
+    background-color: aqua;
+}
+    /* ques 5  */
+#qstn5 > div :not(section) span:nth-child(6){
+    background-color: aqua;
+}
+    /* ques 6  */
+#qstn6 > div > div:nth-child(3) > span:last-of-type {
+    background-color: aqua;
+}
+    /* ques 7  */
+#qstn7 p:nth-of-type(2), p:nth-of-type(7){
+    background-color: aqua;
+}
+    /* ques 8  */
+#qstn8 > div > section:nth-child(odd) p{
+    background-color: aqua;
+}
+    /* ques 9  */
+#qstn9 table tr:nth-child(-n + 6):not(:nth-child(-n + 3)) > td:nth-child(2n-1):not(:nth-child(5)){
+    background-color: aqua;
+}
+    /* ques 10  */
+#qstn10 > div > div > li:nth-of-type(2){
+    background-color: aqua;
+}
